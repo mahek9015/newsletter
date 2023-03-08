@@ -39,7 +39,7 @@ members:[
  const url="https://us21.api.mailchimp.com/3.0/lists/c7f3bb1dc7";
  const options={
     method:"POST",
-    auth: "Mahek:9806ae78ab1bfd67e8afb397f1e19e5e-us21"
+    auth: "Mahek:9035d2a1e8cf9bcd7f3e2006967f17a1-us21"
  }
 const request= https.request(url,options,function(response){
 if(response.statusCode===200){
