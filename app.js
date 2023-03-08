@@ -9,7 +9,7 @@ const app=express();
 app.use(express.static("public"))
 app.use(bodyparser.urlencoded({extended:true}));
 app.get("/",function(req,res){
-    res.sendFile(__dirname+"/signup.html");
+    res.sendFile(__dirname+"/index.html");
 })
 /*mailchimp.setConfig({
     //*****************************ENTER YOUR API KEY HERE******************************
